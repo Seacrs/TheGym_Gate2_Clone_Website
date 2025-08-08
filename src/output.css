@@ -210,12 +210,6 @@
   .relative {
     position: relative;
   }
-  .sticky {
-    position: sticky;
-  }
-  .top-0 {
-    top: calc(var(--spacing) * 0);
-  }
   .top-5 {
     top: calc(var(--spacing) * 5);
   }
@@ -239,6 +233,12 @@
   }
   .mx-2 {
     margin-inline: calc(var(--spacing) * 2);
+  }
+  .mx-5 {
+    margin-inline: calc(var(--spacing) * 5);
+  }
+  .mx-12 {
+    margin-inline: calc(var(--spacing) * 12);
   }
   .mx-20 {
     margin-inline: calc(var(--spacing) * 20);
@@ -270,12 +270,6 @@
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
   }
-  .ml-10 {
-    margin-left: calc(var(--spacing) * 10);
-  }
-  .ml-50 {
-    margin-left: calc(var(--spacing) * 50);
-  }
   .flex {
     display: flex;
   }
@@ -294,9 +288,6 @@
   .h-4 {
     height: calc(var(--spacing) * 4);
   }
-  .h-5 {
-    height: calc(var(--spacing) * 5);
-  }
   .h-7 {
     height: calc(var(--spacing) * 7);
   }
@@ -314,12 +305,6 @@
   }
   .h-65 {
     height: calc(var(--spacing) * 65);
-  }
-  .w-2 {
-    width: calc(var(--spacing) * 2);
-  }
-  .w-3 {
-    width: calc(var(--spacing) * 3);
   }
   .w-4 {
     width: calc(var(--spacing) * 4);
@@ -444,9 +429,6 @@
   .overflow-hidden {
     overflow: hidden;
   }
-  .scroll-auto {
-    scroll-behavior: auto;
-  }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
   }
@@ -480,10 +462,6 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
   }
-  .border-solid {
-    --tw-border-style: solid;
-    border-style: solid;
-  }
   .border-blue-900 {
     border-color: var(--color-blue-900);
   }
@@ -492,9 +470,6 @@
   }
   .border-gray-300 {
     border-color: var(--color-gray-300);
-  }
-  .border-gray-500 {
-    border-color: var(--color-gray-500);
   }
   .border-yellow-400 {
     border-color: var(--color-yellow-400);
@@ -507,9 +482,6 @@
   }
   .bg-blue-50 {
     background-color: var(--color-blue-50);
-  }
-  .bg-blue-100 {
-    background-color: var(--color-blue-100);
   }
   .bg-blue-900 {
     background-color: var(--color-blue-900);
@@ -699,9 +671,6 @@
   }
   .text-\[\#1E3A8A\] {
     color: #1E3A8A;
-  }
-  .text-blue-800 {
-    color: var(--color-blue-800);
   }
   .text-blue-900 {
     color: var(--color-blue-900);
